@@ -77,8 +77,7 @@ p {
 #header .navbar .navbar-wrapper .navbar-menu li {
     position: relative;
     max-width: 100px;
-    width: 80px;
-    padding: 13px 8px;
+    padding: 13px 9px;
     text-align: center;
     display: block;
     line-height: 25px;
@@ -86,12 +85,12 @@ p {
 
 #header .navbar .navbar-wrapper .navbar-menu li:hover:before {
     z-index: 1;
-    content: ' ';
+    content: '';
     position: absolute;
     top: -10px;
-    left: 0;
+    left: -5%;
     right: 0;
-    width: 94px;
+    width: 110%;
     height: 75px;
     background-color: #92c9ce;
 }
@@ -116,8 +115,7 @@ p {
 }
 
 #header .navbar .navbar-wrapper .navbar-menu li:hover {
-    background-color: #92c9ce;
-    font-weight: bold;
+    text-shadow: 1px 0px 0px #ffffff;
 }
 
 #header .banner {
@@ -143,17 +141,10 @@ p {
 
 #header .navbar#second-menu .navbar-wrapper .navbar-menu li:hover a {
     color: #660000 !important;
+    text-shadow: 1px 0px 0px #660000;
 }
 
 #header .navbar#second-menu .navbar-wrapper .navbar-menu li:hover:before {
-    z-index: 1;
-    content: ' ';
-    position: absolute;
-    top: -10px;
-    left: 0;
-    right: 0;
-    width: 94px;
-    height: 75px;
     background-color: #ffffff;
 }
 
@@ -409,6 +400,7 @@ p {
     margin-left: 8px;
     font-size: 13px;
     color: #076e77;
+    min-height: 120px;
 }
 
 #services .services-list .service-item.red .service-item-box .service-description {
